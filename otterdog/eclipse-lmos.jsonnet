@@ -62,6 +62,7 @@ orgs.newOrg('technology.lmos', 'eclipse-lmos') {
       has_wiki: false,
     },
     orgs.newRepo('arc') {
+      actions_can_approve_pull_request_reviews: true,
       allow_auto_merge: true,
       description: "The Arc project utilizes the power of Kotlin DSL and Kotlin Scripting to define a language optimized for building LLM-powered solutions.",
       has_wiki: false,
@@ -71,6 +72,7 @@ orgs.newOrg('technology.lmos', 'eclipse-lmos') {
       ],
     },
     orgs.newRepo('arc-spring-init') {
+      actions_can_approve_pull_request_reviews: true,
       allow_auto_merge: true,
       description: "A demo project for the Arc Agent Framework",
       has_wiki: false,
@@ -79,6 +81,7 @@ orgs.newOrg('technology.lmos', 'eclipse-lmos') {
       ],
     },
     orgs.newRepo('arc-view') {
+      actions_can_approve_pull_request_reviews: true,
       allow_auto_merge: true,
       description: "Arc View is a UI application for Arc agents",
       has_wiki: false,
@@ -87,6 +90,7 @@ orgs.newOrg('technology.lmos', 'eclipse-lmos') {
       ],
     },
     orgs.newRepo('lmos-router') {
+      actions_can_approve_pull_request_reviews: true,
       allow_auto_merge: true,
       description: "Efficient Agent Routing with SOTA Language and Embedding Models",
       has_wiki: false,
@@ -95,6 +99,7 @@ orgs.newOrg('technology.lmos', 'eclipse-lmos') {
       ],
     },
     orgs.newRepo('lmos-operator') {
+      actions_can_approve_pull_request_reviews: true,
       allow_auto_merge: true,
       description: "The LMOS Operator is a Kubernetes operator designed to dynamically resolve Channel requirements based on the capabilities of installed Agents within a Kubernetes cluster.",
       has_wiki: false,
@@ -119,6 +124,7 @@ orgs.newOrg('technology.lmos', 'eclipse-lmos') {
       ],
     },
     orgs.newRepo('lmos-runtime') {
+      actions_can_approve_pull_request_reviews: true,
       allow_auto_merge: true,
       description: "The LMOS Runtime facilitates dynamic agent routing and conversation handling in a multi-tenant, multi-channel environment.",
       has_wiki: false,
